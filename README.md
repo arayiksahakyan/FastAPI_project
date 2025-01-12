@@ -1,39 +1,18 @@
-FastAPI PostgreSQL Project
+# Project API with FastAPI, SQLAlchemy, and PostgreSQL
 
-Overview
+This project provides a REST API for managing projects, employees, and their assignments. It uses FastAPI for the API, SQLAlchemy as the ORM, and PostgreSQL for the database.
 
-This project is a REST API application built with FastAPI and PostgreSQL. It demonstrates basic CRUD operations, database initialization, and data migrations. The API allows for managing projects, employees, and assignments, offering endpoints to create, read, update, and delete records.
+## Installation and Setup
 
-Features
+1. Clone the repository and navigate to the project directory:
 
-Database Initialization:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+Create and activate a virtual environment:
+python3 -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-Automatically creates a PostgreSQL database with the specified name if it doesn't exist.
+Install dependencies:
+pip install -r requirements.txt
 
-CRUD Operations:
-
-Manage projects, employees, and assignments through REST API.
-
-Data Population:
-
-Populate the database with random data using the provided scripts.
-
-Migrations:
-
-Add new columns and indexes to tables via Alembic migrations.
-
-Database Interaction:
-
-Uses SQLAlchemy ORM for database interactions.
-
-Prerequisites
-
-Python 3.9+
-
-PostgreSQL
-
-pip for package installation
-
-Installation
-
-Clone the repository:
