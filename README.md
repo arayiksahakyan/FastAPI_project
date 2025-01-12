@@ -12,7 +12,10 @@ This project provides a REST API for managing projects, employees, and their ass
 Create and activate a virtual environment:
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-
 Install dependencies:
 pip install -r requirements.txt
+Configure the database:
+
+    Update the DATABASE_URL in main.py to point to your PostgreSQL instance.
+   DATABASE_URL = "postgresql+psycopg2://<username>:<password>@<host>:<port>/<database_name>"
 
