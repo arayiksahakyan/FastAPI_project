@@ -11,7 +11,6 @@ from pydantic import BaseModel
 from typing import Union
 import requests
 
-
 # Database Configuration
 POSTGRES_DB = "test_db"
 POSTGRES_USER = "test_user"
